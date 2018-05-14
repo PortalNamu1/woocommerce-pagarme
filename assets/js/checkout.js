@@ -230,7 +230,7 @@
 			// Set params.
 			params = $.extend({}, {
 				paymentMethods:   'credit_card',
-				customerData:     false,
+				customerData:     'false',
 				amount:           inline_data.data( 'total' ),
 				createToken:      true,
 				interestRate:     wcPagarmeParams.interestRate,
